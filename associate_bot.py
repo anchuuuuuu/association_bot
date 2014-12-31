@@ -31,9 +31,9 @@ def tweet():
         nouns.append(noun)
 #        print noun
 
-    rand1 = random.randint(0, len(noun))
-    rand2 = random.randint(0, len(noun))
-    rand3 = random.randint(0, len(noun))
+    rand1 = random.randint(0, len(nouns))
+    rand2 = random.randint(0, len(nouns))
+    rand3 = random.randint(0, len(nouns))
 
     tweet = "『" + nouns[rand1]  + "』『" + nouns[rand2] + "』『" + nouns[rand3] + "』\n" \
           + "#ランダムな3つの名詞から新製品をひねり出そう"
