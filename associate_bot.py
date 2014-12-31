@@ -26,7 +26,7 @@ def tweet():
     api = authorize(0)
     nouns = []
 
-    for noun in open("Noun.csv"):
+    for noun in open("/home/ec2-user/association_bot/association_bot/Noun.csv"):
         noun = noun.split(",")[0]
         nouns.append(noun)
 #        print noun
