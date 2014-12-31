@@ -2,10 +2,7 @@
 
 import random
 import json
-import datetime
-import urllib2
 import oauth2 as oauth
-import guess_language
 import a_key
 import twitter
 
