@@ -39,6 +39,7 @@ def tweet():
           + "#ランダムな3つの名詞から新製品をひねり出そう"
     print tweet
     api.PostUpdates(tweet)
+    api.PostUpdates("@anchuuuuuuuu " + tweet)
 
 if __name__ == '__main__':
     tweet()
